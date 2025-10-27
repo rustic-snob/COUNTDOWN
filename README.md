@@ -2,6 +2,9 @@
 
 This repository contains code to reproduce the experiments from our paper "COUNTDOWN: Contextually Sparse Activation Filtering out Unnecessary Weights in Down Projection".
 
+## News
+- [08/2025] 🚀 COUNTDOWN is accepted to EMNLP 2025 Main Track!
+
 ## System Requirements
 
 - Python 3.10+
@@ -117,4 +120,18 @@ python evaluation/discussion.py
 # Analyze and benchmark ternary weight patterns as alternative predictors
 # Compares performance metrics between ternary weights and low-rank approximation
 python evaluation/benchmark_ternary.py
+```
+
+#### Citation
+
+```
+@misc{cheon2025countdowncontextuallysparseactivation,
+      title={COUNTDOWN: Contextually Sparse Activation Filtering Out Unnecessary Weights in Down Projection}, 
+      author={Jaewon Cheon and Pilsung Kang},
+      year={2025},
+      eprint={2505.17701},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.17701}, 
+}
 ```
