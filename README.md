@@ -1,6 +1,6 @@
-# COUNTDOWN: Contextually Sparse Activation Filtering Out Unnecessary Weights in Down Projection
+# COUNTDOWN
 
-This repository contains code to reproduce the experiments from our paper "COUNTDOWN: COntextually sparse activation filtering out UNnecessary weighTs in DOWN Projection".
+This repository contains code to reproduce the experiments from our paper "COUNTDOWN: Contextually Sparse Activation Filtering out Unnecessary Weights in Down Projection".
 
 ## System Requirements
 
