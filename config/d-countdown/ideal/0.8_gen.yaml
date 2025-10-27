@@ -1,0 +1,6 @@
+trace_base_dir: "./DATA/user/countdown"
+state: "ideal" # or "prac"
+method: "d-countdown" # or "dejavu" or "d-countdown" or "m-countdown"
+gen: True
+sparsity_ratio: 0.8
+prior_dataset: 'Train' # Only used for lm-eval
