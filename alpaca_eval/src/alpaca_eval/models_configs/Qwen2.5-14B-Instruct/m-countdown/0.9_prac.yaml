@@ -1,0 +1,15 @@
+Qwen2.5-14B-Instruct:
+  completions_kwargs:
+    batch_size: 4
+    do_sample: False
+    max_new_tokens: 2048
+    model_kwargs:
+      torch_dtype: float32
+      device_map: auto
+    model_name: Qwen/Qwen2.5-14B-Instruct
+    sparsity_config: "./config/m-countdown/prac/0.9_gen.yaml"
+    sp_ideal: False
+    predictor_dir: "./DATA/user/countdown/Qwen__Qwen2.5-14B-Instruct/m-countdown/ideal/0.9"
+  fn_completions: huggingface_local_completions
+  pretty_name: qwen_m-countdown_90_pred
+  prompt_template: Qwen2.5-14B-Instruct/prompt.txt

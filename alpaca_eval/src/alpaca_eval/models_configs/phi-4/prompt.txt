@@ -1,0 +1,5 @@
+<|im_start|>system<|im_sep|>
+You are a helpful AI assistant.<|im_end|>
+<|im_start|>user<|im_sep|>
+{instruction}<|im_end|>
+<|im_start|>assistant<|im_sep|>

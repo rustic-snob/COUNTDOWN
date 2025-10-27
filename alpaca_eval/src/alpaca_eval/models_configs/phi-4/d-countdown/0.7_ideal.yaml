@@ -1,0 +1,15 @@
+phi-4:
+  completions_kwargs:
+    batch_size: 4
+    do_sample: False
+    max_new_tokens: 2048
+    model_kwargs:
+      torch_dtype: float32
+      device_map: auto
+    model_name: microsoft/phi-4
+    sparsity_config: "./config/d-countdown/ideal/0.7_gen.yaml"
+    sp_ideal: True
+    trace_dir: "./alpaca_eval/results/phi-4/d-countdown/0.7_ideal"
+  fn_completions: huggingface_local_completions
+  pretty_name: phi_d-countdown_70_ideal
+  prompt_template: phi-4/prompt.txt
